@@ -1,5 +1,5 @@
 RE_CLIPID   = Regex('clip.id = ([0-9]+)')
-RE_SUMMARY  = Regex('clip.description = escape\("(.+)"\);')
+RE_SUMMARY  = Regex('clip.description = "(.+)"')
 
 CTV_URL         = 'http://www.ctvnews.ca/video'
 VIDEO_URL       = 'http://www.ctvnews.ca/video?clipId=%s&binId=%s'
